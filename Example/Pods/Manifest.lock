@@ -4,20 +4,20 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.1)
   - FBSnapshotTestCase/SwiftSupport (2.1.1):
     - FBSnapshotTestCase/Core
-  - SnapSnapshotBase (1.0.0):
+  - SnapFBSnapshotBase (1.0.0):
     - FBSnapshotTestCase
 
 DEPENDENCIES:
-  - SnapSnapshotBase (from `../`)
+  - SnapFBSnapshotBase (from `../`)
 
 EXTERNAL SOURCES:
-  SnapSnapshotBase:
+  SnapFBSnapshotBase:
     :path: "../"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
-  SnapSnapshotBase: 89a6c1ba504d5f47725ca2f1e566d1e58cac262b
+  SnapFBSnapshotBase: cc6173801cbb52d39e61215a8a5fa245e0f61b56
 
-PODFILE CHECKSUM: c7343b4372db0b0dfd1989de01c38e11825df286
+PODFILE CHECKSUM: 6eff7fb1bf3a22345dedee36ab67906403489591
 
 COCOAPODS: 1.0.1

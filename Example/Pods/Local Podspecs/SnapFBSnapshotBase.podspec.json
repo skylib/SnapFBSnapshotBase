@@ -1,5 +1,5 @@
 {
-  "name": "SnapSnapshotBase",
+  "name": "SnapFBSnapshotBase",
   "version": "1.0.0",
   "summary": "A base setup of FaceBook's ios-snapshot-test-case, simplifying effective testing of multiple screen sizes.",
   "homepage": "https://github.com/skylib",

@@ -85,9 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SnapSnapshotBase/SnapSnapshotBase.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SnapFBSnapshotBase/SnapFBSnapshotBase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/FBSnapshotTestCase/FBSnapshotTestCase.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SnapSnapshotBase/SnapSnapshotBase.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SnapFBSnapshotBase/SnapFBSnapshotBase.framework"
 fi

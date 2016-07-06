@@ -6,7 +6,7 @@ target 'Example' do
   target 'ExampleSnapshotTests' do
     inherit! :search_paths
 
-    pod 'SnapSnapshotBase', :path => '../'
+    pod 'SnapFBSnapshotBase', :path => '../'
   end
 
 end

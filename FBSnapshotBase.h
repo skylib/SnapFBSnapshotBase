@@ -16,9 +16,6 @@
 #define kIpadMultitaskingPortraitOneToOneAltRect CGRectMake(0, 0, 320, 1024)
 
 @import FBSnapshotTestCase;
-//@import CommonSnapFramework
-
-//#import <FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h>
 
 @interface FBSnapshotBase : FBSnapshotTestCase
 

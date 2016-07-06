@@ -1,4 +1,4 @@
-import SnapSnapshotBase
+import SnapFBSnapshotBase
 @testable import Example
 
 class ExampleSnapshotTests: FBSnapshotBase {
@@ -6,16 +6,16 @@ class ExampleSnapshotTests: FBSnapshotBase {
     var vc: ViewController!
     
     override func setUp() {
-        // Setup code
-        vc = ViewController()
-        vc.imageView?.image = UIImage(named: "snapsale")
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        vc = storyboard.instantiateInitialViewController() as! ViewController
         
         sut = vc.view
-        sut.setNeedsDisplay()
-        sut.layoutIfNeeded()
+        
+        // Setup the view
+        vc.imageView?.image = UIImage(named: "snapsale")
         
         super.setUp()
-        recordMode = false
+        recordMode = self.recordAll || false
     }
     
     override func tearDown() {

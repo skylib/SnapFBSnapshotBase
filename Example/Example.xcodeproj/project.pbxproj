@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3389F5AB861568D4276CA04B /* Pods_ExampleSnapshotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3791263AF870540A4FAB527F /* Pods_ExampleSnapshotTests.framework */; };
-		48E3E4729E083E4D4E03EEA6 /* Pods_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57095323ED9D3461018C01E /* Pods_ExampleTests.framework */; };
+		595E334D632908FDC707BCE8 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C05D6BD995EB69926A6CC82 /* Pods_Example.framework */; };
 		9F93DF5D1D2AAECA006D16B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DF5C1D2AAECA006D16B9 /* AppDelegate.swift */; };
 		9F93DF5F1D2AAECA006D16B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DF5E1D2AAECA006D16B9 /* ViewController.swift */; };
 		9F93DF621D2AAECA006D16B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DF601D2AAECA006D16B9 /* Main.storyboard */; };
 		9F93DF641D2AAECA006D16B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DF631D2AAECA006D16B9 /* Assets.xcassets */; };
 		9F93DF671D2AAECA006D16B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DF651D2AAECA006D16B9 /* LaunchScreen.storyboard */; };
 		9F93DF7D1D2AB6CE006D16B9 /* ExampleSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DF7C1D2AB6CE006D16B9 /* ExampleSnapshotTests.swift */; };
-		FF1746168F4DF6991AD87ED6 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C05D6BD995EB69926A6CC82 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1746168F4DF6991AD87ED6 /* Pods_Example.framework in Frameworks */,
+				595E334D632908FDC707BCE8 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48E3E4729E083E4D4E03EEA6 /* Pods_ExampleTests.framework in Frameworks */,
 				3389F5AB861568D4276CA04B /* Pods_ExampleSnapshotTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,8 +118,8 @@
 		9F93DF701D2AAECA006D16B9 /* ExampleSnapshotTests */ = {
 			isa = PBXGroup;
 			children = (
-				9F93DF731D2AAECA006D16B9 /* Info.plist */,
 				9F93DF7C1D2AB6CE006D16B9 /* ExampleSnapshotTests.swift */,
+				9F93DF731D2AAECA006D16B9 /* Info.plist */,
 			);
 			name = ExampleSnapshotTests;
 			path = ExampleTests;

@@ -1,0 +1,6 @@
+framework module SnapFBSnapshotBase {
+  umbrella header "SnapFBSnapshotBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

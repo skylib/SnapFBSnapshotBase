@@ -1,12 +1,12 @@
 platform :ios, '8.0'
 
-target 'Example' do
+target 'SnapFBSnapshotBaseExample' do
   use_frameworks!
 
-  target 'ExampleSnapshotTests' do
+  target 'Snapshot_tests' do
     inherit! :search_paths
 
-    pod 'SnapSnapshotBase', :path => '../'
+    pod 'SnapFBSnapshotBase', :path => '../'
   end
 
 end

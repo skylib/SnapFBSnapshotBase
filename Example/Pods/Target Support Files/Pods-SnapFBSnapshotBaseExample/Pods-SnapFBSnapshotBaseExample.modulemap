@@ -1,0 +1,6 @@
+framework module Pods_SnapFBSnapshotBaseExample {
+  umbrella header "Pods-SnapFBSnapshotBaseExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

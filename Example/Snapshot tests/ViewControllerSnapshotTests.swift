@@ -9,9 +9,10 @@ class ExampleSnapshotTests: FBSnapshotBase {
         let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
         vc = storyboard.instantiateInitialViewController() as! ViewController
         
-        sut = vc.view
+        sutBackingViewController = vc // Enables size classes
+        sut = vc.view // Also loads the view
         
-        // Setup the view
+        // Setup the loaded view
         vc.imageView?.image = UIImage(named: "snapsale")
         
         super.setUp()
@@ -19,8 +20,6 @@ class ExampleSnapshotTests: FBSnapshotBase {
     }
     
     override func tearDown() {
-        vc = nil
-        
         super.tearDown()
     }
     

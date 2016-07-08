@@ -26,7 +26,7 @@ Include **SnapFBSnapshotBase** in your [CocoaPods](https://github.com/cocoapods/
 
 ```
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/skylib/SnapPods'
+source 'https://github.com/skylib/SnapPods.git'
 ```
 
 ```

@@ -45,7 +45,7 @@
 
 @import FBSnapshotTestCase;
 
-@interface FBSnapshotBase : FBSnapshotTestCase
+@interface SnapFBSnapshotBase : FBSnapshotTestCase
 
 @property (nonatomic, strong) UIViewController *sutBackingViewController;
 @property (nonatomic, strong) UIView *sut;

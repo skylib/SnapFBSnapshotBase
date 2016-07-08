@@ -1,7 +1,7 @@
 import SnapFBSnapshotBase
 @testable import SnapFBSnapshotBaseExample
 
-class ViewControllerSnapshotTests: FBSnapshotBase {
+class ViewControllerSnapshotTests: SnapFBSnapshotBase {
     
     var vc: ViewController!
     

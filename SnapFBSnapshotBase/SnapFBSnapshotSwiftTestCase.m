@@ -1,6 +1,6 @@
-#import "FBSnapshotSwiftTestCase.h"
+#import "SnapFBSnapshotSwiftTestCase.h"
 
-@implementation FBSnapshotSwiftTestCase
+@implementation SnapFBSnapshotSwiftTestCase
 
 - (void)setUp {
     [super setUp];

@@ -1,10 +1,10 @@
-#import "FBSnapshotBase.h"
+#import "SnapFBSnapshotBase.h"
 
 // Because we cannot make this an abstract class.
 // Source: http://stackoverflow.com/questions/23490133/shared-tests-in-xctest-test-suites - read it!
-#define DONT_RUN_TEST_IF_PARENT if ([NSStringFromClass([self class]) isEqualToString:@"FBSnapshotBase"]) { return; }
+#define DONT_RUN_TEST_IF_PARENT if ([NSStringFromClass([self class]) isEqualToString:@"SnapFBSnapshotBase"]) { return; }
 
-@implementation FBSnapshotBase : FBSnapshotTestCase {
+@implementation SnapFBSnapshotBase : FBSnapshotTestCase {
     
     UIViewController *_parentViewController;
 }

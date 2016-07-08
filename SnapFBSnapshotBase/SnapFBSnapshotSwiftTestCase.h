@@ -1,6 +1,6 @@
 #import <FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h>
 
-@interface FBSnapshotSwiftTestCase : FBSnapshotTestCase
+@interface SnapFBSnapshotSwiftTestCase : FBSnapshotTestCase
 
 - (void)verifyView:(UIView *)view;
 

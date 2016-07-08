@@ -2,6 +2,6 @@
 
 @interface FBSnapshotSwiftTestCase : FBSnapshotTestCase
 
-- (void) verifyView:(UIView*) view;
+- (void)verifyView:(UIView *)view;
 
 @end

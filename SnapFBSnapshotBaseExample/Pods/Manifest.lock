@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.1)
   - FBSnapshotTestCase/SwiftSupport (2.1.1):
     - FBSnapshotTestCase/Core
-  - SnapFBSnapshotBase (1.1.0):
+  - SnapFBSnapshotBase (1.2.0):
     - FBSnapshotTestCase
 
 DEPENDENCIES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
-  SnapFBSnapshotBase: d6b8adbb10452b1e61973310e875ba0b95dea339
+  SnapFBSnapshotBase: 58b13dcf36af364dba20cbed94066b9f5933e2f2
 
-PODFILE CHECKSUM: fcdb8aa55b5d11f50401e017c410719e7833a855
+PODFILE CHECKSUM: 4c97aac49f003146dda68c8140ddc4a85b808189
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1

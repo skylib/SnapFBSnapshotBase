@@ -6,7 +6,7 @@ class ViewControllerSnapshotTests: SnapFBSnapshotBase {
     var vc: ViewController!
     
     override func setUp() {
-        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         vc = storyboard.instantiateInitialViewController() as! ViewController
         
         sutBackingViewController = vc // Enables size classes

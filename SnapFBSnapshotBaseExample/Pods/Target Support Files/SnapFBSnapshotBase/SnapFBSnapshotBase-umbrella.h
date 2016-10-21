@@ -1,4 +1,6 @@
+#ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#endif
 
 #import "SnapFBSnapshotBase.h"
 #import "SnapFBSnapshotSwiftTestCase.h"

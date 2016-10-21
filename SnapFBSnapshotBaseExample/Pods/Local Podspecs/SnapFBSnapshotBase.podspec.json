@@ -1,6 +1,6 @@
 {
   "name": "SnapFBSnapshotBase",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "summary": "An extension of Facebook's FBSnapshotTestCase, simplifying automatic testing of multiple device layouts.",
   "homepage": "https://github.com/skylib",
   "license": {
@@ -14,10 +14,10 @@
   "social_media_url": "http://twitter.com/snapsale_com",
   "source": {
     "git": "https://github.com/skylib/SnapFBSnapshotBase.git",
-    "tag": "1.1.0"
+    "tag": "1.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "SnapFBSnapshotBase/*.{h,m}",
   "frameworks": [
